@@ -1,0 +1,13 @@
+.item {
+	padding: 1rem 2rem;
+	background-color: var(--white);
+	display: inline-block;
+	font-size: 1.8rem;
+	color: var(--text-color);
+	border-radius: 6px;
+	cursor: pointer;
+	border: 2px solid var(--black);
+}
+.item__selected {
+	border: 2px solid var(--primary-color);
+}
