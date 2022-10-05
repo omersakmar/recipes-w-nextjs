@@ -3,10 +3,10 @@
 	"editor.defaultFormatter": "esbenp.prettier-vscode",
 	"editor.formatOnSave": true,
 	"[javascript]": {
-		"editor.formatOnSave": true
+		"editor.formatOnSave": false
 	},
 	"[javascriptreact]": {
-		"editor.formatOnSave": true
+		"editor.formatOnSave": false
 	},
 	"editor.codeActionsOnSave": {
 		"source.fixAll": true
@@ -17,11 +17,5 @@
 		"javascriptreact",
 		"typescript",
 		"typescriptreact"
-	],
-	// START: Settings for Prettier
-	"prettier.useTabs": true,
-	"prettier.jsxSingleQuote": false,
-	"prettier.tabWidth": 2,
-	"prettier.arrowParens": "avoid",
-	"prettier.singleQuote": true
+	]
 }
